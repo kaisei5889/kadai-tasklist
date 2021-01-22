@@ -50,5 +50,5 @@ class TasksController < ApplicationController
   private
   def task_params
     params.require(:task).permit(:content)
-  
+  end
 end
