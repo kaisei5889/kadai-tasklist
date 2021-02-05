@@ -12,13 +12,4 @@
     
   <%= link_to 'Logout', logout_path, method: :delete %>
 
-<% else %>
-
-<div class="text-center">
-  <h1>Welcome to the Tasklist</h1>
-  <%= link_to 'Sign up now!', signup_path, class: 'btn' %>
-</div>
-
-<%= link_to 'Log in', login_path, class: 'btn' %>
-
 <% end %>
